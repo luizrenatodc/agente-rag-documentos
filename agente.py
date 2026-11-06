@@ -43,7 +43,7 @@ def responder(indice, pergunta, modelo=None):
         return {"resposta": "Não encontrei isso nos documentos.", "fontes": []}
     fontes = sorted({f for _, f, _ in achados})
     contexto = "\n".join(t for _, _, t in achados)
-    texto = modelo(pergunta, contexto) if modelo else achados[0][2]
+    texto = modelo(pergunta, contexto) if modelo else contexto
     return {"resposta": texto, "fontes": fontes}
 
 

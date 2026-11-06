@@ -4,6 +4,12 @@ Assistente que responde perguntas com base nos documentos da empresa, cita a fon
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-TF--IDF-a8d8ff)
 
+## Veja funcionando
+
+![Respostas com a fonte citada e recusa quando a informação não está nos documentos.](docs/perguntas.png)
+
+*Respostas com a fonte citada e recusa quando a informação não está nos documentos.*
+
 ## O problema
 
 Regras de férias, reembolso e processos internos ficam espalhadas em arquivos que ninguém encontra, e o time acaba perguntando tudo para as mesmas pessoas. Um assistente interno só é útil se der para confiar na resposta. Por isso ele precisa mostrar de onde tirou a informação.
